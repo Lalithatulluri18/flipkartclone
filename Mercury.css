@@ -1,0 +1,40 @@
+h2 {
+  background-color: #800000;
+  color: #ffffff;
+  text-align: center;
+}
+td {
+  background-color: #858585;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+}
+button {
+  color: #800000;
+  background-color: #8a7576;
+  border: 1px solid black;
+}
+a {
+  color: blue;
+}
+body {
+  width: 85vw;
+  margin: auto;
+  margin-top: 4rem;
+}
+.Mercury {
+  border: 1px solid #ffffff;
+  background-color: #8b8b8b;
+  padding: 40px;
+}
+table {
+  border: 2px solid black;
+}
+.medicine {
+  color: black;
+}
+input {
+  background-color: #858585;
+}
+input::placeholder {
+  color: #ffffff;
+}

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      nav {
+        background-color: #5183f1;
+      }
+      nav ul {
+        display: grid;
+        width: 80vw;
+        margin: auto;
+        grid-template-columns: repeat(6, 1fr);
+        align-items: center;
+        gap: 15px;
+        color: #fff;
+      }
+      nav a {
+        color: #fff;
+        text-decoration: none;
+      }
+      .navbar ul {
+        display: grid;
+        grid-template-columns: repeat(9, 1fr);
+        box-shadow: rgba(0, 0, 0, 0.2) 2px 1px 2px 2px;
+        height: 50px;
+        margin-top: 1px;
+        padding-top: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <ul type="none">
+        <li>
+          <img
+            class="logo"
+            src="https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/flipkart-plus_8d85f4.png"
+            alt=""
+            style="width: 100px"
+          />
+          <a href="https://www.flipkipkart-plus_8d85f4.pngart.com/">
+            Explore<span style="color: yellow">Plus</span>
+          </a>
+        </li>
+        <li class="search">
+          <input
+            type="search"
+            placeholder="Search for Porducts,brands & More"
+            style="width: 300px; height: 20px"
+          />
+        </li>
+        <li>My Account</li>
+        <li>Become a Seller</li>
+        <li>More</li>
+        <li>Cart</li>
+      </ul>
+    </nav>
+    <div class="navbar">
+      <ul type="none">
+        <li>Electronics</li>
+        <li>TVs & Appliances</li>
+        <li>Men</li>
+        <li>Women</li>
+        <li>Baby & Kids</li>
+        <li>Home & Furniture</li>
+        <li>Sports & Books</li>
+        <li>Flights</li>
+        <li>Offer Zone</li>
+      </ul>
+    </div>
+  </body>
+</html>

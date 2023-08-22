@@ -1,0 +1,47 @@
+body {
+  background-color: #fff;
+  width: 90vw;
+  margin: auto;
+  margin-top: 4rem;
+}
+table {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.travel {
+  background-color: green;
+  color: #fff;
+  border: 3px solid #fff;
+  display: inline-block;
+}
+td {
+  background-color: rgb(37, 156, 224);
+  border: 2px solid #fff;
+  border-radius: 5px;
+}
+.manage {
+  color: rgb(187, 7, 31);
+}
+h1 {
+  background-color: #fff;
+  color: red;
+  border-radius: 5px;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding-left: 150px;
+}
+button {
+  margin-top: 50px;
+  margin-left: 50px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+.name {
+  text-decoration: underline;
+}
+.n {
+  color: blue;
+}
+img {
+  width: 300px;
+}

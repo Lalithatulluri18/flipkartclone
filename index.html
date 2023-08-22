@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!--<table>
+      <tr>
+        <td>
+          <lable for="CoustomerName">CoustomerName:</lable>
+        </td>
+        <td><input type="text" id="CoustomerName" /></td>
+        <td>
+          <button onclick="getCoustomerName()">Submit</button>
+        </td>
+      </tr>
+    </table>
+    <p id="para"></p>
+    <script>
+      const inputBox = document.getElementById("CoustomerName");
+      console.log(inputBox);
+      function getCoustomerName() {
+        event.preventDefault();
+        const para = document.getElementById("para");
+        console.log(inputBox.value);
+        para.innerHTML = inputBox.value;
+      }
+    </script>-->
+    <table>
+      <tr>
+        <td>
+          <lable for="CoustomerName">CoustomerName:</lable>
+        </td>
+        <td><input type="text" id="CoustomerName" /></td>
+        <!---- <td>
+          <button onclick="getCoustomerName()">Submit</button>
+        </td>-->
+      </tr>
+      <tr>
+        <td rowspan="2">Vegetarian</td>
+      </tr>
+      <tr>
+        <td>Adult <input type="number" id="VegAdult" /></td>
+      </tr>
+      <tr>
+        <td>Kids(5-9 yrs)<input type="number" id="VegKids" /></td>
+      </tr>
+      <tr>
+        <td rowspan="2">Non-Vegetarian</td>
+      </tr>
+      <tr>
+        <td>Adult <input type="number" id="NonVegAdult" /></td>
+      </tr>
+      <tr>
+        <td>Kids(5-9 yrs)<input type="number" id="NonVegKids" /></td>
+      </tr>
+    </table>
+    <p id="message"></p>
+    <button onclick="calculateTotal()">Submit</button>
+    <script>
+      /*const inputBox = document.getElementById("CoustomerName");
+      console.log(inputBox);
+      function getCoustomerName() {
+        event.preventDefault();
+          }*/
+      const CoustomerName = document.getElementById("CoustmerName");
+      const VegAdult = document.getElementById("VegAdult");
+      const VegKids = document.getElementById("VegKids");
+      const NonVegAdult = document.getElementById("NonVegAdult");
+      const NonVegKids = document.getElementById("NonVegKids");
+      const message = document.getElementById("message");
+
+      function calculateTotal() {
+        event.preventDefault();
+        let totalBill =
+          VegAdult.value * 600 +
+          VegKids.value * 200 +
+          NonVegAdult.value * 700 +
+          NonVegKids.value * 300;
+        const gst = (10 * totalBill) / 100;
+        totalBill = totalBill + gst;
+        message.innerHTML = `Hi ${customername.value}, You have to pay Rs.${totalBill}. Thanks for coming!!!`;
+      }
+    </script>
+  </body>
+</html>

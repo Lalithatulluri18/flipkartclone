@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./shineclinic.css"/>
+    <title>Shine Clinic</title>
+</head>
+<body>
+    
+    <img src="./Screenshot .png">
+    <form action="" class="clinic" >
+        <h2><b>Shine Clinic</b></h2>
+        
+        <table>
+            <!-- first Row -->
+            <tr>
+                <td>Admission-Info</td>
+                <td>Personal-Info</td>
+                <td>Paymant-Info</td>
+            </tr>
+            <!-- second Row -->
+            <tr>
+                <td class="clinic_info" colspan="3"><b>Admission Information</b></td>
+            </tr>
+            <!-- 3rd Row -->
+            <tr>
+                <td> Date of Admission :<br>
+                    <input type="date">
+                </td>
+                <td>Select the admission type <br>
+                    <select name="" id="" aria-placeholder="select">
+                        <option value="">Andhra Pradesh</option>
+                        <option value="">Hydrabad</option>
+                        <option value="">Delhi</option>
+                        <option value="">Uttar Pradesh</option>
+                        <option value="">Madhay Pradesh</option>
+                        <option value="">Mumbai</option>
+                    </select>
+                </td>
+                <td>Admission for <br>
+                    <select name="" id="" aria-placeholder="select">
+                        <option value="">Andhra Pradesh</option>
+                        <option value="">Hydrabad</option>
+                        <option value="">Delhi</option>
+                        <option value="">Uttar Pradesh</option>
+                        <option value="">Madhay Pradesh</option>
+                        <option value="">Mumbai</option>
+                    </select>
+                </td>
+            </tr>
+            <!-- 4th Row -->
+            <tr>
+                <td colspan="3">
+                    **select if you have any of the following below
+                </td>
+            </tr>
+            <!-- 5th Row  -->
+            <tr> 
+                <td>
+                    <input type="checkbox" id="Cold">
+                    <label for="Cold">Cold</label>
+                </td>
+                <td>
+                     <input type="checkbox" id="Fever">
+                    <label for="Fever">Fever</label>
+                </td>
+                <td>
+                     <input type="checkbox" id="Cough">
+                    <label for="Cough">Cough</label>
+                </td>
+            </tr>
+            <!-- 6th Row -->
+            <tr> 
+                <td>
+                    <input type="checkbox" id="Diapedesis">
+                    <label for="Diapedesis">Diapedesis</label>
+                </td>
+                <td>
+                     <input type="checkbox" id="Blood Pressure">
+                    <label for="Blood Pressure">Blood Pressure</label>
+                </td>
+                <td>
+                     <input type="checkbox" id="Heavy surgery">
+                    <label for="Heavy surgery">Heavy surgery</label>
+                </td>
+            </tr>
+            <!-- 7th Row -->
+             <tr>
+                <td  class="clinic_info" colspan="3" ><b>Personal Information</b></td>
+            </tr>
+            <!-- 8th Row -->
+            <tr>
+                <td>Patient Name</td>
+                <td colspan="2">
+                    <input class="patient" type="text" placeholder="Enter the patient name"></input>
+                </td>
+            </tr>
+            <!-- 9th Row -->
+            <tr>
+                <td>Phone Number</td>
+                <td colspan="2">
+                    <input class="patient"  type="tel" placeholder="Enter the phone number"></input>
+                </td>
+            </tr>
+            <!-- 10th Row -->
+            <tr>
+                <td>Email ID</td>
+                <td colspan="2">
+                    <input class="patient" type="email" placeholder="Enter the email id"></input>
+                </td>
+            </tr>
+            <!-- 11th Row -->
+            <tr>
+                <td>Age</td>
+                <td colspan="2">
+                    <input class="patient" type="tel" placeholder="Enter the Age"></input>
+                </td>
+            </tr>
+            <!-- 12th Row -->
+            <tr>
+              <td>Address</td>
+              <td colspan="2" >
+                  <input class="patient" type="text" placeholder="Enter the Address" ></input>
+              </td>
+          </tr>
+          <!-- 13th Row -->
+          <tr>
+              <td class="clinic_info" colspan="3"><b>Payment Information</b></td>
+          </tr>
+          <!-- 14th Row -->
+          <tr> 
+              <td>
+                 select the Payment type :
+              </td>
+              <td>
+                   <input type="radio" id="Card" name="select the Payment type">
+                  <label for="Card">Card</label>
+              </td>
+              <td>
+                   <input type="radio" id="Cash" name="select the Payment type">
+                  <label for="Cash">Cash</label>
+              </td>
+          </tr>
+          <!-- 15th Row -->
+          <tr>
+              <td>Card Number</td>
+              <td colspan="2">
+                  <input class="patient" type="tel" placeholder="Enter the card number"></input>
+              </td>
+          </tr>
+          <!-- 16th Row -->
+          <tr>
+              <td>Cvv Number</td>
+              <td colspan="2">
+                  <input  class="patient" type="tel" placeholder="Enter the cvv number"></input>
+              </td>
+          </tr>
+      </table>
+      <h4><b>CONFIRM</b></h4>
+  </form>
+</body>
+</html>

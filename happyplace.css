@@ -1,0 +1,30 @@
+h2 {
+  color: #5a437a;
+  text-align: center;
+  background-color: #fff;
+}
+td {
+  border: 1px solid gray;
+  color: #fff;
+
+  background-color: #caa0a1;
+}
+.pad {
+  padding-bottom: 40px;
+}
+button {
+  margin-left: 200px;
+}
+body {
+  color: #ffffff;
+  width: 50vw;
+  margin: auto;
+  margin-top: 4rem;
+  border: 1px solid black;
+}
+.happy {
+  background-color: #caa0a1;
+}
+.pro {
+  color: #5a437a;
+}
